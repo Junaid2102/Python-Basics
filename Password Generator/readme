@@ -1,0 +1,13 @@
+Hello Friends, most of the accounts require strong password and we couldn't generate a strong password using alphabets, number and characters so our password 
+sometimes is vulnerable, so, today we'll generate a strong password using python.
+
+In this code we asks user their name and gender, respective to them we display their name and Password.
+For Password, we hardcoded the size of the password but you can alter the size of Passowrd on your own.
+We give lower alphabets, we stored them in lower variable and then for upper case we converted lower into upper by .upper and stored them in upper variable.
+We give numbers and store them in number variable.
+We give some special characters and store them in characters variable.
+We added lower, upper, numbers and characters in a cariable named sum.
+We join them and randomize them using random.sample and store them in password variable.
+WE print password and it displays strong Password.
+
+================================================= End =================================================
